@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF815E402ABCBF0D00B35168 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF815E3F2ABCBF0D00B35168 /* QuestionView.swift */; };
+		AF815E422ABCC0D400B35168 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF815E412ABCC0D400B35168 /* ImagePicker.swift */; };
+		AF815E442ABD13FB00B35168 /* classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF815E432ABD13FB00B35168 /* classifier.swift */; };
+		AF815E462ABD141E00B35168 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF815E452ABD141E00B35168 /* ImageClassifier.swift */; };
+		AF815E482ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AF815E472ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel */; };
+		AF9BD6BD2ABBD84D007E4841 /* DiloenSenasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6BC2ABBD84D007E4841 /* DiloenSenasApp.swift */; };
+		AF9BD6BF2ABBD84D007E4841 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6BE2ABBD84D007E4841 /* MainView.swift */; };
+		AF9BD6C12ABBD84F007E4841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9BD6C02ABBD84F007E4841 /* Assets.xcassets */; };
+		AF9BD6C42ABBD84F007E4841 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9BD6C32ABBD84F007E4841 /* Preview Assets.xcassets */; };
+		AF9BD6CB2ABBD883007E4841 /* JoinSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6CA2ABBD883007E4841 /* JoinSessionView.swift */; };
+		AF9BD6CD2ABBD895007E4841 /* CreateSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6CC2ABBD895007E4841 /* CreateSessionView.swift */; };
+		AF9BD6CF2ABBD8A5007E4841 /* LobbySessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6CE2ABBD8A5007E4841 /* LobbySessionView.swift */; };
+		AF9BD6D12ABBD8B7007E4841 /* CreateGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6D02ABBD8B7007E4841 /* CreateGameView.swift */; };
+		AF9BD6D32ABBD8F9007E4841 /* LiveSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6D22ABBD8F9007E4841 /* LiveSessionView.swift */; };
+		AF9BD6D52ABBE620007E4841 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6D42ABBE620007E4841 /* QuestionModel.swift */; };
+		AF9BFAC22ABD2CEC002FB156 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = AF9BFAC12ABD2CEC002FB156 /* Fonts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF815E3F2ABCBF0D00B35168 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		AF815E412ABCC0D400B35168 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AF815E432ABD13FB00B35168 /* classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classifier.swift; sourceTree = "<group>"; };
+		AF815E452ABD141E00B35168 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		AF815E472ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "ClasificadorDeImagenes .mlmodel"; path = "../../../../ClasificadorDeImagenes .mlmodel"; sourceTree = "<group>"; };
+		AF9BD6B92ABBD84D007E4841 /* DiloenSenas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiloenSenas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9BD6BC2ABBD84D007E4841 /* DiloenSenasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiloenSenasApp.swift; sourceTree = "<group>"; };
+		AF9BD6BE2ABBD84D007E4841 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AF9BD6C02ABBD84F007E4841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF9BD6C32ABBD84F007E4841 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF9BD6CA2ABBD883007E4841 /* JoinSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinSessionView.swift; sourceTree = "<group>"; };
+		AF9BD6CC2ABBD895007E4841 /* CreateSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessionView.swift; sourceTree = "<group>"; };
+		AF9BD6CE2ABBD8A5007E4841 /* LobbySessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbySessionView.swift; sourceTree = "<group>"; };
+		AF9BD6D02ABBD8B7007E4841 /* CreateGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGameView.swift; sourceTree = "<group>"; };
+		AF9BD6D22ABBD8F9007E4841 /* LiveSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSessionView.swift; sourceTree = "<group>"; };
+		AF9BD6D42ABBE620007E4841 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		AF9BFABE2ABD2AE8002FB156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AF9BFAC12ABD2CEC002FB156 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../../../../Fonts; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF9BD6B62ABBD84D007E4841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF9BD6B02ABBD84D007E4841 = {
+			isa = PBXGroup;
+			children = (
+				AF9BD6BB2ABBD84D007E4841 /* DiloenSenas */,
+				AF9BD6BA2ABBD84D007E4841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF9BD6BA2ABBD84D007E4841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BD6B92ABBD84D007E4841 /* DiloenSenas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF9BD6BB2ABBD84D007E4841 /* DiloenSenas */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BFABE2ABD2AE8002FB156 /* Info.plist */,
+				AF9BD6BC2ABBD84D007E4841 /* DiloenSenasApp.swift */,
+				AF9BD6BE2ABBD84D007E4841 /* MainView.swift */,
+				AF9BD6CA2ABBD883007E4841 /* JoinSessionView.swift */,
+				AF9BD6CC2ABBD895007E4841 /* CreateSessionView.swift */,
+				AF9BD6CE2ABBD8A5007E4841 /* LobbySessionView.swift */,
+				AF9BD6D22ABBD8F9007E4841 /* LiveSessionView.swift */,
+				AF9BD6D02ABBD8B7007E4841 /* CreateGameView.swift */,
+				AF815E3F2ABCBF0D00B35168 /* QuestionView.swift */,
+				AF9BD6D42ABBE620007E4841 /* QuestionModel.swift */,
+				AF815E432ABD13FB00B35168 /* classifier.swift */,
+				AF815E412ABCC0D400B35168 /* ImagePicker.swift */,
+				AF815E452ABD141E00B35168 /* ImageClassifier.swift */,
+				AF815E472ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel */,
+				AF9BD6C02ABBD84F007E4841 /* Assets.xcassets */,
+				AF9BFAC12ABD2CEC002FB156 /* Fonts */,
+				AF9BD6C22ABBD84F007E4841 /* Preview Content */,
+			);
+			path = DiloenSenas;
+			sourceTree = "<group>";
+		};
+		AF9BD6C22ABBD84F007E4841 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF9BD6C32ABBD84F007E4841 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF9BD6B82ABBD84D007E4841 /* DiloenSenas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF9BD6C72ABBD84F007E4841 /* Build configuration list for PBXNativeTarget "DiloenSenas" */;
+			buildPhases = (
+				AF9BD6B52ABBD84D007E4841 /* Sources */,
+				AF9BD6B62ABBD84D007E4841 /* Frameworks */,
+				AF9BD6B72ABBD84D007E4841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiloenSenas;
+			productName = DiloenSenas;
+			productReference = AF9BD6B92ABBD84D007E4841 /* DiloenSenas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF9BD6B12ABBD84D007E4841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AF9BD6B82ABBD84D007E4841 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AF9BD6B42ABBD84D007E4841 /* Build configuration list for PBXProject "DiloenSenas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF9BD6B02ABBD84D007E4841;
+			productRefGroup = AF9BD6BA2ABBD84D007E4841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF9BD6B82ABBD84D007E4841 /* DiloenSenas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF9BD6B72ABBD84D007E4841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9BD6C42ABBD84F007E4841 /* Preview Assets.xcassets in Resources */,
+				AF9BFAC22ABD2CEC002FB156 /* Fonts in Resources */,
+				AF9BD6C12ABBD84F007E4841 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF9BD6B52ABBD84D007E4841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9BD6D12ABBD8B7007E4841 /* CreateGameView.swift in Sources */,
+				AF9BD6CB2ABBD883007E4841 /* JoinSessionView.swift in Sources */,
+				AF9BD6D32ABBD8F9007E4841 /* LiveSessionView.swift in Sources */,
+				AF9BD6CF2ABBD8A5007E4841 /* LobbySessionView.swift in Sources */,
+				AF815E462ABD141E00B35168 /* ImageClassifier.swift in Sources */,
+				AF815E482ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel in Sources */,
+				AF9BD6CD2ABBD895007E4841 /* CreateSessionView.swift in Sources */,
+				AF9BD6D52ABBE620007E4841 /* QuestionModel.swift in Sources */,
+				AF815E442ABD13FB00B35168 /* classifier.swift in Sources */,
+				AF9BD6BF2ABBD84D007E4841 /* MainView.swift in Sources */,
+				AF815E422ABCC0D400B35168 /* ImagePicker.swift in Sources */,
+				AF815E402ABCBF0D00B35168 /* QuestionView.swift in Sources */,
+				AF9BD6BD2ABBD84D007E4841 /* DiloenSenasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF9BD6C52ABBD84F007E4841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF9BD6C62ABBD84F007E4841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF9BD6C82ABBD84F007E4841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiloenSenas/Preview Content\"";
+				DEVELOPMENT_TEAM = 45DPHGZ84B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiloenSenas/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.mx.DiloenSenas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF9BD6C92ABBD84F007E4841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiloenSenas/Preview Content\"";
+				DEVELOPMENT_TEAM = 45DPHGZ84B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DiloenSenas/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = itesm.mx.DiloenSenas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF9BD6B42ABBD84D007E4841 /* Build configuration list for PBXProject "DiloenSenas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9BD6C52ABBD84F007E4841 /* Debug */,
+				AF9BD6C62ABBD84F007E4841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF9BD6C72ABBD84F007E4841 /* Build configuration list for PBXNativeTarget "DiloenSenas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9BD6C82ABBD84F007E4841 /* Debug */,
+				AF9BD6C92ABBD84F007E4841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF9BD6B12ABBD84D007E4841 /* Project object */;
+}
