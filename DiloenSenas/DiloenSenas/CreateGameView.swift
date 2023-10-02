@@ -17,12 +17,16 @@ struct CreateGameView: View {
     
     var body: some View {
         ZStack {
-            Color(red: 244/255, green: 240/255, blue: 236/255)
+            Image("fondo3")
+                .resizable()
                 .edgesIgnoringSafeArea(.all)
+                .aspectRatio(contentMode: .fill)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .zIndex(0)
             ScrollView{
                 VStack {
                     //¡Crea tu propio  Escape!
-                    Text("¡CREA TU PROPIO ESCAPE!").font(.custom("Concert One", size: 29)).foregroundColor(Color(red: 200/255, green: 70/255, blue: 48/255))
+                    Text("¡CREA TU PROPIO ESCAPE!").font(.custom("ConcertOne-Regular", size: 29)).foregroundColor(Color(red: 200/255, green: 70/255, blue: 48/255))
                     ZStack(alignment: .bottom) {
                         Rectangle()
                             .foregroundColor(Color(red: 164/255, green: 164/255, blue: 255/255))
@@ -76,16 +80,17 @@ struct CreateGameView: View {
                         .multilineTextAlignment(.center) // Centra el texto dentro del TextField
                     
                     // Visibilidad (usando Picker para seleccionar entre "Pública" y "Privada")
-                    Text("Visibilidad").font(.custom("Concert One", size: 22)).foregroundColor(Color(red: 200/255, green: 70/255, blue: 48/255)).bold()}
-                Picker("Visibilidad", selection: $createGameModel.visibilidad) {
-                    Text("Pública").tag("Pública")
-                    Text("Privada").tag("Privada")
-                        .frame(width: 300) // Establece el ancho máximo
-                        .multilineTextAlignment(.center) // Centra el texto dentro del TextField
+                    Text("Visibilidad").font(.custom("Concert One", size: 22)).foregroundColor(Color(red: 200/255, green: 70/255, blue: 48/255)).bold()
+                    Picker("Visibilidad", selection: $createGameModel.visibilidad) {
+                        Text("Pública").tag("Pública")
+                        Text("Privada").tag("Privada")
+                            .frame(width: 300) // Establece el ancho máximo
+                            .multilineTextAlignment(.center) // Centra el texto dentro del TextField
+                    }
+                    
+                    .pickerStyle(SegmentedPickerStyle())
+                    Spacer()
                 }
-                
-                .pickerStyle(SegmentedPickerStyle())
-                
                 // Categoría (usando Picker para seleccionar entre "Escolar" y "En casa")
                 Text("Categoría").font(.custom("Concert One", size: 22)).foregroundColor(Color(red: 200/255, green: 70/255, blue: 48/255)).bold()
                 Picker("Categoría", selection: $createGameModel.categoria) {
@@ -108,27 +113,28 @@ struct CreateGameView: View {
                         
                     }
                     //PREGUNTAS
-                    ZStack(alignment: .bottom) {
-                        Rectangle()
-                            .foregroundColor(Color(red: 164/255, green: 164/255, blue: 255/255))
-                            .cornerRadius(10)
-                            .frame(width: 380, height: 120)
-                        
-                        HStack{
-                            Image(systemName: "video.fill") // aquí va la imagen o el video
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(height: 70) // Tamaño de la imagen/video
-                                .padding()
+                    VStack{
+                        Spacer()
+                        ZStack(alignment: .bottom) {
+                            Rectangle()
+                                .foregroundColor(Color(red: 164/255, green: 164/255, blue: 255/255))
+                                .cornerRadius(10)
+                                .frame(width: 800, height: 150)
                             
-                            
-                            Spacer()
-                            
-                            VStack{
-                                Text("Pregunta")
-                                TextField("Título", text: $createGameModel.titulo)
-                                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                            HStack{
+                                Image(systemName: "video.fill") // aquí va la imagen o el video
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(height: 70) // Tamaño de la imagen/video
                                     .padding()
+                                
+
+                                VStack{
+                                    Text("Pregunta")
+                                    TextField("Título", text: $createGameModel.titulo)
+                                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                                        .padding()
+                                }
                             }
                         }
                     }
@@ -163,6 +169,9 @@ struct CreateGameView: View {
                     
                 }
                 .padding()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.clear)
+                .alignmentGuide(.top) { _ in 0 }
             }
         }
     }

@@ -15,7 +15,7 @@ struct Classifier {
     
     mutating func detect(ciImage: CIImage) {
         
-        guard let model = try? VNCoreMLModel(for: ClasificadorDeImagenes_(configuration: MLModelConfiguration()).model)
+        guard let model = try? VNCoreMLModel(for: ClasificadorDeImagenes(configuration: MLModelConfiguration()).model)
         else {
             return
         }

@@ -13,10 +13,10 @@ struct MainView: View {
     @State private var isCreateGameActive = false
     
     var body: some View {
-        NavigationView {
+        NavigationStack{
             GeometryReader { geo in
                 ZStack {
-                    Image("inicio")
+                    Image("fondo1")
                         .resizable()
                         .scaledToFill()
                         .frame(width: geo.size.width)
@@ -25,75 +25,67 @@ struct MainView: View {
                     VStack {
                         Spacer()
                         Spacer()
+                        Spacer()
                         
-                        VStack {
-                            NavigationLink(destination: JoinSessionView(), isActive: $isJoinSessionActive) {
-                                EmptyView()
+                            .navigationDestination(isPresented: $isJoinSessionActive) {
+                                JoinSessionView()
                             }
-                            .opacity(0)
-                            
-                            Button(action: {
-                                isJoinSessionActive = true
-                            }) {
-                                Text("Unirse a Sesión")
-                                    .frame(width: 200, height: 50)
-                                    .background(Color(red: 255/255, green: 87/255, blue: 50/255))
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
-                                    .padding()
-                                    .bold()
-
-                            }
-                            
-                            NavigationLink(destination: CreateSessionView(), isActive: $isCreateSessionActive) {
-                                EmptyView()
-                            }
-                            .opacity(0)
-                            
-                            Button(action: {
-                                isCreateSessionActive = true
-                            }) {
-                                Text("Crear Sesión")
-                                    .frame(width: 200, height: 50)
-                                    .background(Color(red: 255/255, green: 87/255, blue: 50/255))
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
-                                    .padding()
-                                    .bold()
-                            }
-                            
-                            NavigationLink(destination: CreateGameView(createGameModel: CreateGameModel()), isActive: $isCreateGameActive) {
-                                EmptyView()
-                            }
-                            .opacity(0)
-                            
-                            Button(action: {
-                                isCreateGameActive = true
-                            }) {
-                                Text("Crear Nuevo Juego")
-                                    .frame(width: 200, height: 50)
-                                    .background(Color(red: 255/255, green: 87/255, blue: 50/255))
-                                    .foregroundColor(.white)
-                                    .cornerRadius(10)
-                                    .padding()
-                                    .bold()
-                            }
+                        
+                        
+                        Button(action: {
+                            isJoinSessionActive = true
+                        }) {
+                            Text("Unirse a Sesión")
+                                .frame(width: 200, height: 50)
+                                .background(Color(red: 255/255, green: 87/255, blue: 50/255))
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                                .padding()
+                                .bold()
                         }
-                        .background(Color.clear)
+                        
+                        .navigationDestination(isPresented: $isCreateSessionActive) {
+                            CreateSessionView()
+                        }
+                        
+                        Button(action: {
+                            isCreateSessionActive = true
+                        }) {
+                            Text("Crear Sesión")
+                                .frame(width: 200, height: 50)
+                                .background(Color(red: 255/255, green: 87/255, blue: 50/255))
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                                .padding()
+                                .bold()
+                        }
+                        
+                        .navigationDestination(isPresented: $isCreateGameActive) {
+                            CreateGameView(createGameModel:CreateGameModel())
+                        }
+                        
+                        Button(action: {
+                            isCreateGameActive = true
+                        }) {
+                            Text("Crear Nuevo Juego")
+                                .frame(width: 200, height: 50)
+                                .background(Color(red: 255/255, green: 87/255, blue: 50/255))
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                                .padding()
+                                .bold()
+                        }
                         
                         Spacer()
                     }
+                    .background(Color.clear)
                 }
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    Text("")
-                }
-            }
+            .navigationBarTitle("") // Oculta el título de navegación
+            .navigationBarHidden(true) // Oculta la barra de navegación
         }
     }
 }
-
 
 struct MainView_Preview: PreviewProvider {
     static var previews: some View {

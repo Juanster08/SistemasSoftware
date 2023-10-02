@@ -11,7 +11,6 @@
 		AF815E422ABCC0D400B35168 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF815E412ABCC0D400B35168 /* ImagePicker.swift */; };
 		AF815E442ABD13FB00B35168 /* classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF815E432ABD13FB00B35168 /* classifier.swift */; };
 		AF815E462ABD141E00B35168 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF815E452ABD141E00B35168 /* ImageClassifier.swift */; };
-		AF815E482ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AF815E472ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel */; };
 		AF9BD6BD2ABBD84D007E4841 /* DiloenSenasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6BC2ABBD84D007E4841 /* DiloenSenasApp.swift */; };
 		AF9BD6BF2ABBD84D007E4841 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6BE2ABBD84D007E4841 /* MainView.swift */; };
 		AF9BD6C12ABBD84F007E4841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9BD6C02ABBD84F007E4841 /* Assets.xcassets */; };
@@ -22,7 +21,7 @@
 		AF9BD6D12ABBD8B7007E4841 /* CreateGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6D02ABBD8B7007E4841 /* CreateGameView.swift */; };
 		AF9BD6D32ABBD8F9007E4841 /* LiveSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6D22ABBD8F9007E4841 /* LiveSessionView.swift */; };
 		AF9BD6D52ABBE620007E4841 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6D42ABBE620007E4841 /* QuestionModel.swift */; };
-		AF9BFAC22ABD2CEC002FB156 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = AF9BFAC12ABD2CEC002FB156 /* Fonts */; };
+		FBF5352B2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FBF5352A2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +29,6 @@
 		AF815E412ABCC0D400B35168 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		AF815E432ABD13FB00B35168 /* classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classifier.swift; sourceTree = "<group>"; };
 		AF815E452ABD141E00B35168 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
-		AF815E472ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "ClasificadorDeImagenes .mlmodel"; path = "../../../../ClasificadorDeImagenes .mlmodel"; sourceTree = "<group>"; };
 		AF9BD6B92ABBD84D007E4841 /* DiloenSenas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiloenSenas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9BD6BC2ABBD84D007E4841 /* DiloenSenasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiloenSenasApp.swift; sourceTree = "<group>"; };
 		AF9BD6BE2ABBD84D007E4841 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -43,7 +41,11 @@
 		AF9BD6D22ABBD8F9007E4841 /* LiveSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSessionView.swift; sourceTree = "<group>"; };
 		AF9BD6D42ABBE620007E4841 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		AF9BFABE2ABD2AE8002FB156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		AF9BFAC12ABD2CEC002FB156 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../../../../Fonts; sourceTree = "<group>"; };
+		FBCAEE492ACB2B0B008E887F /* fondo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo2.png; sourceTree = "<group>"; };
+		FBF5352A2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ClasificadorDeImagenes.mlmodel; path = ../../../../Downloads/ClasificadorDeImagenes.mlmodel; sourceTree = "<group>"; };
+		FBF5352C2ACB1CA6000D62BD /* ConcertOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ConcertOne-Regular.ttf"; path = "../../../../Downloads/Concert_One/ConcertOne-Regular.ttf"; sourceTree = "<group>"; };
+		FBF5352D2ACB1CC2000D62BD /* ClasificadorDeImagenes.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ClasificadorDeImagenes.mlmodel; sourceTree = "<group>"; };
+		FBF5352E2ACB1CD0000D62BD /* ConcertOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ConcertOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +91,9 @@
 				AF815E432ABD13FB00B35168 /* classifier.swift */,
 				AF815E412ABCC0D400B35168 /* ImagePicker.swift */,
 				AF815E452ABD141E00B35168 /* ImageClassifier.swift */,
-				AF815E472ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel */,
+				FBF5352A2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel */,
 				AF9BD6C02ABBD84F007E4841 /* Assets.xcassets */,
-				AF9BFAC12ABD2CEC002FB156 /* Fonts */,
+				FBF5352C2ACB1CA6000D62BD /* ConcertOne-Regular.ttf */,
 				AF9BD6C22ABBD84F007E4841 /* Preview Content */,
 			);
 			path = DiloenSenas;
@@ -100,7 +102,10 @@
 		AF9BD6C22ABBD84F007E4841 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FBF5352D2ACB1CC2000D62BD /* ClasificadorDeImagenes.mlmodel */,
 				AF9BD6C32ABBD84F007E4841 /* Preview Assets.xcassets */,
+				FBCAEE492ACB2B0B008E887F /* fondo2.png */,
+				FBF5352E2ACB1CD0000D62BD /* ConcertOne-Regular.ttf */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -164,7 +169,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF9BD6C42ABBD84F007E4841 /* Preview Assets.xcassets in Resources */,
-				AF9BFAC22ABD2CEC002FB156 /* Fonts in Resources */,
 				AF9BD6C12ABBD84F007E4841 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,10 +182,10 @@
 			files = (
 				AF9BD6D12ABBD8B7007E4841 /* CreateGameView.swift in Sources */,
 				AF9BD6CB2ABBD883007E4841 /* JoinSessionView.swift in Sources */,
+				FBF5352B2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel in Sources */,
 				AF9BD6D32ABBD8F9007E4841 /* LiveSessionView.swift in Sources */,
 				AF9BD6CF2ABBD8A5007E4841 /* LobbySessionView.swift in Sources */,
 				AF815E462ABD141E00B35168 /* ImageClassifier.swift in Sources */,
-				AF815E482ABD15CE00B35168 /* ClasificadorDeImagenes .mlmodel in Sources */,
 				AF9BD6CD2ABBD895007E4841 /* CreateSessionView.swift in Sources */,
 				AF9BD6D52ABBE620007E4841 /* QuestionModel.swift in Sources */,
 				AF815E442ABD13FB00B35168 /* classifier.swift in Sources */,
@@ -326,12 +330,14 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DiloenSenas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EncuentraEnSeñas";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,12 +363,14 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DiloenSenas/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EncuentraEnSeñas";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
