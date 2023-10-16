@@ -1,2 +1,0 @@
-# SistemasSoftware
-Desarollo de iOS
