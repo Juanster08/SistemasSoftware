@@ -21,7 +21,19 @@
 		AF9BD6D12ABBD8B7007E4841 /* CreateGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6D02ABBD8B7007E4841 /* CreateGameView.swift */; };
 		AF9BD6D32ABBD8F9007E4841 /* LiveSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6D22ABBD8F9007E4841 /* LiveSessionView.swift */; };
 		AF9BD6D52ABBE620007E4841 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BD6D42ABBE620007E4841 /* QuestionModel.swift */; };
-		FBF5352B2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FBF5352A2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel */; };
+		FB5583A12AD71E6A009CB29E /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5583A02AD71E6A009CB29E /* Objects.swift */; };
+		FB8D29CE2ADDA5FE00C069A4 /* Anton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8D29CA2ADDA5FE00C069A4 /* Anton-Regular.ttf */; };
+		FB8D29CF2ADDA5FE00C069A4 /* Rowdies-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8D29CB2ADDA5FE00C069A4 /* Rowdies-Regular.ttf */; };
+		FB8D29D02ADDA5FE00C069A4 /* Rowdies-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8D29CC2ADDA5FE00C069A4 /* Rowdies-Bold.ttf */; };
+		FB8D29D12ADDA5FE00C069A4 /* JungleHope.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8D29CD2ADDA5FE00C069A4 /* JungleHope.ttf */; };
+		FB8D29D32ADDA6AD00C069A4 /* Aloja Extended.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8D29D22ADDA6AD00C069A4 /* Aloja Extended.ttf */; };
+		FB8D29D52ADDA95800C069A4 /* ABeeZee-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8D29D42ADDA95800C069A4 /* ABeeZee-Regular.ttf */; };
+		FB8E96062ADD927E00232B92 /* ObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E96052ADD927E00232B92 /* ObjectViewModel.swift */; };
+		FB8E96082ADD92A000232B92 /* ObjectsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E96072ADD92A000232B92 /* ObjectsModel.swift */; };
+		FB8E960D2ADD932100232B92 /* LiveSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8E960C2ADD932100232B92 /* LiveSessionViewModel.swift */; };
+		FB92A3B02AD7143F006C5269 /* ClasificadorDeImagenes.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB92A3AF2AD7143F006C5269 /* ClasificadorDeImagenes.mlmodel */; };
+		FBD988342ADD946300106E2A /* ModeloEscuela.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB8E960B2ADD92C400232B92 /* ModeloEscuela.mlmodel */; };
+		FBD988362ADD95AE00106E2A /* LiveSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD988352ADD95AE00106E2A /* LiveSessionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,9 +53,21 @@
 		AF9BD6D22ABBD8F9007E4841 /* LiveSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSessionView.swift; sourceTree = "<group>"; };
 		AF9BD6D42ABBE620007E4841 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		AF9BFABE2ABD2AE8002FB156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FB5583A02AD71E6A009CB29E /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		FB8D29C52ADDA46E00C069A4 /* Aloja-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aloja-Light.otf"; path = "../../../../../Downloads/Aloja-Free-Font/Aloja-Light.otf"; sourceTree = "<group>"; };
+		FB8D29CA2ADDA5FE00C069A4 /* Anton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Anton-Regular.ttf"; path = "../../../../../Desktop/Anton-Regular.ttf"; sourceTree = "<group>"; };
+		FB8D29CB2ADDA5FE00C069A4 /* Rowdies-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rowdies-Regular.ttf"; path = "../../../../../Desktop/Rowdies-Regular.ttf"; sourceTree = "<group>"; };
+		FB8D29CC2ADDA5FE00C069A4 /* Rowdies-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Rowdies-Bold.ttf"; path = "../../../../../Desktop/Rowdies-Bold.ttf"; sourceTree = "<group>"; };
+		FB8D29CD2ADDA5FE00C069A4 /* JungleHope.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = JungleHope.ttf; path = ../../../../../Desktop/JungleHope.ttf; sourceTree = "<group>"; };
+		FB8D29D22ADDA6AD00C069A4 /* Aloja Extended.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aloja Extended.ttf"; path = "../../../../../Downloads/OnlineWebFonts_COM_8ac235664891e1112b02275fe15325ba/Aloja Extended/Aloja Extended.ttf"; sourceTree = "<group>"; };
+		FB8D29D42ADDA95800C069A4 /* ABeeZee-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ABeeZee-Regular.ttf"; path = "../../../../../Downloads/ABeeZee/ABeeZee-Regular.ttf"; sourceTree = "<group>"; };
+		FB8E96052ADD927E00232B92 /* ObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectViewModel.swift; sourceTree = "<group>"; };
+		FB8E96072ADD92A000232B92 /* ObjectsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsModel.swift; sourceTree = "<group>"; };
+		FB8E960B2ADD92C400232B92 /* ModeloEscuela.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ModeloEscuela.mlmodel; sourceTree = "<group>"; };
+		FB8E960C2ADD932100232B92 /* LiveSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSessionViewModel.swift; sourceTree = "<group>"; };
+		FB92A3AF2AD7143F006C5269 /* ClasificadorDeImagenes.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ClasificadorDeImagenes.mlmodel; sourceTree = "<group>"; };
 		FBCAEE492ACB2B0B008E887F /* fondo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondo2.png; sourceTree = "<group>"; };
-		FBF5352A2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = ClasificadorDeImagenes.mlmodel; path = ../../../../Downloads/ClasificadorDeImagenes.mlmodel; sourceTree = "<group>"; };
-		FBF5352C2ACB1CA6000D62BD /* ConcertOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ConcertOne-Regular.ttf"; path = "../../../../Downloads/Concert_One/ConcertOne-Regular.ttf"; sourceTree = "<group>"; };
+		FBD988352ADD95AE00106E2A /* LiveSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSessionViewController.swift; sourceTree = "<group>"; };
 		FBF5352D2ACB1CC2000D62BD /* ClasificadorDeImagenes.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ClasificadorDeImagenes.mlmodel; sourceTree = "<group>"; };
 		FBF5352E2ACB1CD0000D62BD /* ConcertOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ConcertOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,16 +108,28 @@
 				AF9BD6CA2ABBD883007E4841 /* JoinSessionView.swift */,
 				AF9BD6CC2ABBD895007E4841 /* CreateSessionView.swift */,
 				AF9BD6CE2ABBD8A5007E4841 /* LobbySessionView.swift */,
+				FB8E96072ADD92A000232B92 /* ObjectsModel.swift */,
 				AF9BD6D22ABBD8F9007E4841 /* LiveSessionView.swift */,
 				AF9BD6D02ABBD8B7007E4841 /* CreateGameView.swift */,
 				AF815E3F2ABCBF0D00B35168 /* QuestionView.swift */,
 				AF9BD6D42ABBE620007E4841 /* QuestionModel.swift */,
+				FBD988352ADD95AE00106E2A /* LiveSessionViewController.swift */,
 				AF815E432ABD13FB00B35168 /* classifier.swift */,
+				FB5583A02AD71E6A009CB29E /* Objects.swift */,
+				FB8E960C2ADD932100232B92 /* LiveSessionViewModel.swift */,
+				FB8E96052ADD927E00232B92 /* ObjectViewModel.swift */,
 				AF815E412ABCC0D400B35168 /* ImagePicker.swift */,
 				AF815E452ABD141E00B35168 /* ImageClassifier.swift */,
-				FBF5352A2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel */,
 				AF9BD6C02ABBD84F007E4841 /* Assets.xcassets */,
-				FBF5352C2ACB1CA6000D62BD /* ConcertOne-Regular.ttf */,
+				FB8D29CA2ADDA5FE00C069A4 /* Anton-Regular.ttf */,
+				FB8D29D22ADDA6AD00C069A4 /* Aloja Extended.ttf */,
+				FB8D29CD2ADDA5FE00C069A4 /* JungleHope.ttf */,
+				FB8D29CC2ADDA5FE00C069A4 /* Rowdies-Bold.ttf */,
+				FB8D29CB2ADDA5FE00C069A4 /* Rowdies-Regular.ttf */,
+				FB8D29D42ADDA95800C069A4 /* ABeeZee-Regular.ttf */,
+				FB8D29C52ADDA46E00C069A4 /* Aloja-Light.otf */,
+				FB92A3AF2AD7143F006C5269 /* ClasificadorDeImagenes.mlmodel */,
+				FB8E960B2ADD92C400232B92 /* ModeloEscuela.mlmodel */,
 				AF9BD6C22ABBD84F007E4841 /* Preview Content */,
 			);
 			path = DiloenSenas;
@@ -168,8 +204,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8D29D02ADDA5FE00C069A4 /* Rowdies-Bold.ttf in Resources */,
 				AF9BD6C42ABBD84F007E4841 /* Preview Assets.xcassets in Resources */,
 				AF9BD6C12ABBD84F007E4841 /* Assets.xcassets in Resources */,
+				FB8D29D12ADDA5FE00C069A4 /* JungleHope.ttf in Resources */,
+				FB8D29CE2ADDA5FE00C069A4 /* Anton-Regular.ttf in Resources */,
+				FB8D29CF2ADDA5FE00C069A4 /* Rowdies-Regular.ttf in Resources */,
+				FB8D29D32ADDA6AD00C069A4 /* Aloja Extended.ttf in Resources */,
+				FB8D29D52ADDA95800C069A4 /* ABeeZee-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,19 +222,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8E96062ADD927E00232B92 /* ObjectViewModel.swift in Sources */,
 				AF9BD6D12ABBD8B7007E4841 /* CreateGameView.swift in Sources */,
 				AF9BD6CB2ABBD883007E4841 /* JoinSessionView.swift in Sources */,
-				FBF5352B2ACB1C58000D62BD /* ClasificadorDeImagenes.mlmodel in Sources */,
 				AF9BD6D32ABBD8F9007E4841 /* LiveSessionView.swift in Sources */,
 				AF9BD6CF2ABBD8A5007E4841 /* LobbySessionView.swift in Sources */,
 				AF815E462ABD141E00B35168 /* ImageClassifier.swift in Sources */,
+				FBD988362ADD95AE00106E2A /* LiveSessionViewController.swift in Sources */,
 				AF9BD6CD2ABBD895007E4841 /* CreateSessionView.swift in Sources */,
+				FB8E960D2ADD932100232B92 /* LiveSessionViewModel.swift in Sources */,
 				AF9BD6D52ABBE620007E4841 /* QuestionModel.swift in Sources */,
+				FB8E96082ADD92A000232B92 /* ObjectsModel.swift in Sources */,
 				AF815E442ABD13FB00B35168 /* classifier.swift in Sources */,
+				FBD988342ADD946300106E2A /* ModeloEscuela.mlmodel in Sources */,
 				AF9BD6BF2ABBD84D007E4841 /* MainView.swift in Sources */,
 				AF815E422ABCC0D400B35168 /* ImagePicker.swift in Sources */,
 				AF815E402ABCBF0D00B35168 /* QuestionView.swift in Sources */,
 				AF9BD6BD2ABBD84D007E4841 /* DiloenSenasApp.swift in Sources */,
+				FB5583A12AD71E6A009CB29E /* Objects.swift in Sources */,
+				FB92A3B02AD7143F006C5269 /* ClasificadorDeImagenes.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +374,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DiloenSenas/Preview Content\"";
-				DEVELOPMENT_TEAM = 45DPHGZ84B;
+				DEVELOPMENT_TEAM = Q4L5GLAD5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DiloenSenas/Info.plist;
@@ -359,7 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DiloenSenas/Preview Content\"";
-				DEVELOPMENT_TEAM = 45DPHGZ84B;
+				DEVELOPMENT_TEAM = Q4L5GLAD5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DiloenSenas/Info.plist;

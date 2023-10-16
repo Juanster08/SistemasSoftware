@@ -11,6 +11,9 @@ struct CreateSessionView: View {
     var body: some View {
         ZStack{
             Image("fondo1")
+                .ignoresSafeArea()
+                .scaledToFill()
+
         }
     }
 }

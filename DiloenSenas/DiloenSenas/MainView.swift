@@ -16,7 +16,7 @@ struct MainView: View {
         NavigationStack{
             GeometryReader { geo in
                 ZStack {
-                    Image("fondo1")
+                    Image("fondologo")
                         .resizable()
                         .scaledToFill()
                         .frame(width: geo.size.width)
@@ -31,17 +31,16 @@ struct MainView: View {
                                 JoinSessionView()
                             }
                         
-                        
                         Button(action: {
                             isJoinSessionActive = true
                         }) {
                             Text("Unirse a Sesión")
-                                .frame(width: 200, height: 50)
-                                .background(Color(red: 255/255, green: 87/255, blue: 50/255))
+                                .font(Font.custom("Rowdies", size: 30))
+                                .frame(width: 330, height: 90)
+                                .background(Color(red: 55/255, green: 215/255, blue: 70/255))
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .padding()
-                                .bold()
                         }
                         
                         .navigationDestination(isPresented: $isCreateSessionActive) {
@@ -52,8 +51,9 @@ struct MainView: View {
                             isCreateSessionActive = true
                         }) {
                             Text("Crear Sesión")
-                                .frame(width: 200, height: 50)
-                                .background(Color(red: 255/255, green: 87/255, blue: 50/255))
+                                .frame(width: 330, height: 90)
+                                .font(Font.custom("Rowdies-Regular", size: 30))
+                                .background(Color(red: 55/255, green: 215/255, blue: 70/255))
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .padding()
@@ -68,8 +68,9 @@ struct MainView: View {
                             isCreateGameActive = true
                         }) {
                             Text("Crear Nuevo Juego")
-                                .frame(width: 200, height: 50)
-                                .background(Color(red: 255/255, green: 87/255, blue: 50/255))
+                                .font(Font.custom("Rowdies", size: 30))
+                                .frame(width: 330, height: 90)
+                                .background(Color(red: 55/255, green: 215/255, blue: 70/255))
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                                 .padding()
